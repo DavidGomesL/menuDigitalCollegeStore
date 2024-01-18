@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
 /*Ajuste body
 body{
@@ -11,4 +12,6 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
+/*Ajuste titleDigital*/
