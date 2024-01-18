@@ -3,10 +3,12 @@
     padding: 0;
     text-decoration: none;
 }
-/*Ajuste body*/
+/*Ajuste body
 body{
 }
+*/
 /*Ajuste do header*/
 header{
-    
+    display: flex;
+    justify-content: space-between;
 }
