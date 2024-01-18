@@ -29,3 +29,6 @@ header{
     transition: 0.6s;
     opacity: 0.7;
 }
+#titleDigital .figure {
+    padding-top: 5px;
+}
