@@ -15,14 +15,12 @@ header{
     padding: 20px;
 }
 /*Ajuste titleDigital*/
-#titleDigital {
-    background-color: #ccc;
-}
 #titleDigital ul {
     display: flex;
     list-style: none;
     gap: 20px;
     color: #474747;
+    margin-top: 20px;
 }
 #titleDigital li:hover {
     color: #C92071;
@@ -37,7 +35,7 @@ header{
     display: flex;
     width: 40vw;
     align-items: center;
-    
+    justify-content: center;
 }
 #searchProd input {
     height: 7vh;
@@ -54,3 +52,26 @@ input::placeholder {
     opacity: 0.6;
 }
 /*Ajuste cadastrar e entrar*/
+#cadOpen {
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    justify-content: space-evenly;
+}
+#cadOpen a {
+    color: #474747;
+    text-decoration-line: underline;
+    font-weight: 400;
+    font-size: 17px;
+}
+#cadOpen  button {
+    width: 7vw;
+    height: 6vh;
+    border-style: none;
+    border-radius: 8.64px;
+    background-color: #C92071;
+    color: #F5F5F5;   
+}
+#cadOpen .material-symbols-outlined {
+    color: #C92071;
+}
