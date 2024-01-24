@@ -32,3 +32,8 @@ header{
 #titleDigital .figure {
     padding-top: 5px;
 }
+/*searchProd*/
+#searchProd {
+    background-color: #ccc;
+    width: 40vw;
+}
