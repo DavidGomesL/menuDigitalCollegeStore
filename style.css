@@ -34,6 +34,23 @@ header{
 }
 /*searchProd*/
 #searchProd {
-    background-color: #ccc;
+    display: flex;
     width: 40vw;
+    align-items: center;
+    
 }
+#searchProd input {
+    height: 7vh;
+    width: 80%;
+    border-radius: 8.64px;
+    opacity: 0.04;
+    background-color: #474747;
+}
+input::placeholder {
+    color:  #666;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    opacity: 0.6;
+}
+/*Ajuste cadastrar e entrar*/
